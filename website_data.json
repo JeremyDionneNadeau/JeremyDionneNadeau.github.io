@@ -2,7 +2,7 @@
     "main": {
       "name":"Jérémy Dionne-Nadeau",
       "project_name":"Site Web personnel comme CV",
-      "description":"Développeur full stack certifié Scrum, avec plus de 3 ans d'expérience. Mordu d'informatique, je connais plusieurs langages informatiques (Python, Java, C, C++, Javascript, PHP, AngularJS...) et créé plusieurs projets personnels et scolaire. Polyvalent, je maîtrise les différentes étapes techniques de création d'un site internet ou d'une application web ; de la compréhension des besoins des utilisateurs au développement et à la maintenance frontend et backend. Apprendre de nouvelles technologies me passionne.",
+      "description":"Développeur full stack certifié Scrum, avec plus de 3 ans d'expérience. Mordu d'informatique, je connais plusieurs langages informatiques (Python, Java, C, C++, Javascript, PHP, AngularJS...) et crée plusieurs projets personnels et scolaires. Polyvalent, je maîtrise les différentes étapes techniques de création d'un site internet ou d'une application web ; de la compréhension des besoins des utilisateurs au développement et à la maintenance frontend et backend. Apprendre de nouvelles technologies me passionne.",
       "image":"my_picture.jpg",
       "contactmessage_en":"Contact me!",
       "contactmessage_fr":"Contactez-moi!",
