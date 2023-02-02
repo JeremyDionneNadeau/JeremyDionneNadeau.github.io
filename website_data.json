@@ -1,0 +1,63 @@
+{
+    "main": {
+      "name":"Jérémy Dionne-Nadeau",
+      "project_name":"Site Web personnel comme CV",
+      "description":"Développeur full stack certifié Scrum, avec plus de 3 ans d'expérience. Mordu d'informatique, je connais plusieurs langages informatiques (Python, Java, C, C++, Javascript, PHP, AngularJS...) et créé plusieurs projets personnels et scolaire. Polyvalent, je maîtrise les différentes étapes techniques de création d'un site internet ou d'une application web ; de la compréhension des besoins des utilisateurs au développement et à la maintenance frontend et backend. Apprendre de nouvelles technologies me passionne.",
+      "image":"my_picture.jpg",
+      "contactmessage_en":"Contact me!",
+      "contactmessage_fr":"Contactez-moi!",
+      "email": "jeremydionnenadeau@gmail.com",
+      "phone": "(514)-922-3355",
+      "age": "24",
+      "graduation": "2023",
+      "university": "Université du Québec à Montréal",
+      "name_contact": "Name",
+      "email_contact": "Email",
+      "message_contact": "Message",
+      "send_contact": "Send",
+      "interests": "Improving my skills, skiing and reading",
+      "work": "Ready to work !",
+      "github":"https://github.com/JeremyDionneNadeau/",
+      "project":"https://github.com/JeremyDionneNadeau/JeremyDionneNadeau.github.io",
+      "address":{
+        "street":"(Your Street)",
+        "city":"Montréal",
+        "province":"Québec",
+        "zip": "H8R 3K6"
+      },
+      "website": "https://jeremydionnenadeau.github.io/",
+      "resumedownload":"https://jeremydionnenadeau.github.io/",
+      "facebook_url":"https://www.facebook.com/",
+      "twitter_url":"http://twitter.com",
+      "linkedin_url":"https://www.linkedin.com/in/jérémy-dionne-nadeau-534162144/",
+      "instagram_url":"https://www.instagram.com/jeremydionnenadeau/",
+      "github_url":"https://github.com/JeremyDionneNadeau/",
+      "social":[
+        {
+          "name":"facebook",
+          "url":"https://www.facebook.com/",
+          "className":"fa fa-facebook"
+        },
+        {
+          "name":"twitter",
+          "url":"http://twitter.com",
+          "className":"fa fa-twitter"
+        },
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/jérémy-dionne-nadeau-534162144/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"instagram",
+          "url":"https://www.instagram.com/jeremydionnenadeau/",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"github",
+          "url":"https://github.com/JeremyDionneNadeau/",
+          "className":"fa fa-github"
+        }
+      ]
+    }
+}
