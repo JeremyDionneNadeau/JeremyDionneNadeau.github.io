@@ -90,9 +90,11 @@ class ContactUs extends Component {
                                                 </label>
                                                 <textarea className="form-control" id="message" name="message" placeholder="Are you available to work with us?" required />
                                             </div>
-                                            <button className="btn btn-danger" type="submit">
-                                                {data.main.send_contact}
-                                            </button>
+                                            <div class="col d-flex align-items-center justify-content-center">
+                                                <button className="btn btn-primary btn-lg" type="submit">
+                                                    {data.main.send_contact}
+                                                </button>
+                                            </div>
                                         </form>
                                     </div>
                                 </Col>
