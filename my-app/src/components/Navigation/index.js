@@ -1,8 +1,4 @@
 import React from "react";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
-// import { Collapse } from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
@@ -12,7 +8,7 @@ function Navigation(props) {
 
 	return (
 		<Container fluid className="p-0">
-			<Navbar collapseOnSelect bg="dark" variant="dark" className="px-2 p-sm-0" id="navbar-collapse-id" expand="lg" fill activekey={currentTab} justified>
+			<Navbar fluid collapseOnSelect bg="dark" variant="dark" className="px-2 p-sm-0" id="navbar-collapse-id" expand="lg" fill activekey={currentTab} justified>
 				<Container>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav px-3 px-sm-1 px-md-0" />
 

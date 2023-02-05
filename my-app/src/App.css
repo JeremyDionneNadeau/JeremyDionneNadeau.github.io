@@ -2,11 +2,11 @@
   text-align: center;
 }
 
-.header{
+.header {
   padding: 0rem !important;
 }
 
-div div header{
+div div header {
   padding: 0rem !important;
 }
 
@@ -14,8 +14,6 @@ div div header{
   height: 40vmin;
   pointer-events: none;
 }
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -64,7 +62,58 @@ html {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 400px;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  font-size: 3vmin;
+}
+
+.app {
+  /* this is needed or the background will be offset by a few pixels at the top */
+  overflow: auto;
+  position: relative;
+}
+
+.app::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('./assets/background.jpg');
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: brightness(150%);
+}
+
+.SearchIcon {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 400px) {
+  .SearchIcon {
+      font-size: 12px;
   }
 }
