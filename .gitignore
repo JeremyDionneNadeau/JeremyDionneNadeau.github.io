@@ -130,3 +130,6 @@ dmypy.json
 
 # Lighthouse reports
 *.report.html
+
+# MacOS file
+.DS_Store
