@@ -1,6 +1,46 @@
 import React, { Component } from 'react';
+
 import { Col, Container, Image, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
 import { FaBuilding, FaEnvelope, FaGraduationCap, FaIcons, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+
+import Testimonial from '../Testimonial';
+import professional_men_1 from "../../assets/professional_men_1.jpg";
+import professional_men_2 from "../../assets/professional_men_2.jpg";
+import professional_women_1 from "../../assets/professional_women_1.jpg";
+
+
+const testimonials = [
+    {
+        picture: professional_men_1,
+        text: "This is an amazing product that has transformed my business. I highly recommend it to anyone looking for a solution to their problems.",
+        author: "John Doe"
+    },
+    {
+        picture: professional_women_1,
+        text: "This is an amazing product that has transformed my business. I highly recommend it to anyone looking for a solution to their problems.",
+        author: "Jane Doe"
+    },
+    {
+        picture: professional_men_2,
+        text: "I have never seen such an efficient and well-designed product before. I recommend it to anyone looking for a solution to their problems.",
+        author: "Bob Smith"
+    },
+    {
+        picture: professional_men_1,
+        text: "This product has greatly improved my life! It has made my life so much easier.",
+        author: "Jim Smith",
+    },
+    {
+        picture: professional_women_1,
+        text: "This website is efficient and well-designed. I highly recommend this developper to anyone.",
+        author: "Someone"
+    },
+    {
+        picture: professional_men_2,
+        text: "This is an amazing product that has transformed my business. I highly recommend it to anyone looking for a solution to their problems.",
+        author: "John Doe"
+    },
+];
 
 
 class About extends Component {
@@ -68,6 +108,9 @@ class About extends Component {
                                     </ListGroupItem>
                                 </ListGroup><br></br>
                             </Col>
+                            <div>
+                                <Testimonial testimonials={testimonials} />
+                            </div>
                         </Row>
                         <br></br>
                     </Container>
