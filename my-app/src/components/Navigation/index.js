@@ -1,10 +1,20 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { Nav } from "react-bootstrap";
+import { Button, Container, Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
+import frenchFlag from "../../assets/quebec_flag.png";
+import englishFlag from "../../assets/usa_flag.png";
 
 function Navigation(props) {
 	const { currentTab, setCurrentTab } = props;
+	const [language, setLanguage] = React.useState({ text: 'French', flag: frenchFlag });
+
+	const handleLanguageSwitch = () => {
+		if (language.text === 'French') {
+			setLanguage({ text: 'English', flag: englishFlag });
+		} else {
+			setLanguage({ text: 'French', flag: frenchFlag });
+		}
+	};
 
 	return (
 		<Container fluid className="p-0">
@@ -35,6 +45,14 @@ function Navigation(props) {
 								</Nav.Link>
 							</Nav.Item>
 						</Nav>
+					</Navbar.Collapse>
+					<Navbar.Collapse className="justify-content-end">
+						<Navbar.Text>
+							<Button variant="outline-light" onClick={handleLanguageSwitch}>
+								<img src={language.flag} alt={language.text} width="30" height="20" />
+								&nbsp;{language.text}
+							</Button>
+						</Navbar.Text>
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
